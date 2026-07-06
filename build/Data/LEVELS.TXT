@@ -1,0 +1,32 @@
+# List level filenames here.
+#
+# Syntax:
+#	set	[difficulty]	Start a new set of levels (e.g. "normal")
+#
+#	file	[filename]	A level or part of a level
+#	next			Go to next level (show "stage clear" and stuff)
+#	scene	[filename]	Show a cut-scene
+#
+
+
+
+set     Demo
+versusdamage 0
+lives 3
+credits 5
+continuescore 2
+cansave 2
+noshare 1
+scene	data/scenes/howto.txt
+z 383 473 90
+file 	data/levels/street1-level.txt
+next
+file	data/levels/bridge3-level.txt
+next
+z 165 235 70
+file	data/levels/port-level.txt
+next
+z 309 362 53
+file 	data/levels/warehouse2-level.txt
+next
+scene	data/scenes/ending.txt

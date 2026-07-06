@@ -1,0 +1,2 @@
+music data/music/remix.ogg 1
+background data/bgs/select.png
