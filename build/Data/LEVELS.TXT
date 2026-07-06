@@ -21,6 +21,7 @@ scene	data/scenes/howto.txt
 z 383 473 90
 file 	data/levels/street1-level.txt
 next
+z 160 232 160
 file	data/levels/bridge3-level.txt
 next
 z 165 235 70
