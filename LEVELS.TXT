@@ -18,6 +18,8 @@ continuescore 2
 cansave 2
 noshare 1
 scene	data/scenes/howto.txt
+z 206 266 60
+file data/levels/stage3-1.txt
 z 383 473 90
 file 	data/levels/street1-level.txt
 next
@@ -26,10 +28,10 @@ file	data/levels/bridge3-level.txt
 next
 #stage 3
 #Part 1
-#z 206 266 60
+z 206 266 60
+file data/levels/stage3-1.txt
 #Part 2
-z 176 240 64
-file data/levels/chop-shop.txt
+#z 176 240 64
 #Part 3
 #z 187 240 53
 #Part 4
