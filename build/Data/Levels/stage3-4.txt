@@ -1,0 +1,98 @@
+## Load music in this area ##
+music		data/music/remix.bor
+bossmusic	data/music/menu.bor
+
+## Load images in this area ##
+
+# Background layer
+background data/bgs/stage3/parkinggarage3rd.png 0 0
+
+panel data/bgs/stage3/parkinggaragepanel.gif none none
+order a
+
+## Spawning Area ##
+# Spawn format:
+#
+#	spawn	[id]
+#	alias	[name]		(change the displayed name, optional)
+#	map	[num]		(colourmap, range 0-3, optional)
+#	health	[num]		(optional)
+#	item	[id]		(obstacles only: contained item, optional)
+#	boss	[0/1]		(see below, optional)
+#	flip	[0/1]		(0 = face left, 1 = face right, optional)
+#	coords	[num] [num]	(coords relative to scrollpos)
+#	at	[scrollpos]
+#
+# Also:
+#	wait			(blocks scrolling until all enemies defeated)
+#	at	[scrollpos]
+#
+# And:
+#	group	[min] [max]	(set minimum and maximum enemies, see below)
+#	at	[scrollpos]
+#
+#
+#
+# Using group, you may set two values, namely:
+#
+# [min]
+# If the number of enemies drops below [min], more enemies will be spawned
+# (if possible).
+#
+# [max]
+# No more than [max] enemies will be present.
+#
+# So, to make enemies appear in groups of four, use this:
+# group 1 4
+#
+# To make them appear normally, use this:
+# group 4 4
+
+
+
+#--group1-----
+spawn   billy
+item	Meat
+coords	150 220
+at	190
+
+spawn   biker-k'
+coords 	150 220
+at	190
+
+wait
+at 320
+
+group 2 2
+at 340
+#--group1-----
+
+spawn  jhun
+coords 220 200
+at 190
+
+spawn Mrbig
+croods 360 200
+at 200
+
+
+wait
+at 600
+
+group 2 2
+at 620
+
+spawn mrbig
+croods  660 200
+at 700
+
+spawn k9999
+item	Meat
+croords 780 200
+at 830
+
+spawn joe
+boss 1
+coords 800 240
+at 890
+
