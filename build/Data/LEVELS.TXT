@@ -29,7 +29,7 @@ next
 z 206 266 60
 file data/levels/stage3-1.txt
 #Part 2
-#z 176 240 64
+z 176 240 64
 file data/levels/chop-shop.txt
 #Part 3
 z 187 240 53
