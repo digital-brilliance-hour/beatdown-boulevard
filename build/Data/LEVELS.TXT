@@ -32,10 +32,10 @@ file data/levels/stage3-1.txt
 z 176 240 64
 file data/levels/chop-shop.txt
 #Part 3
-z 187 240 53
+z 187 267 80
 file	data/levels/stage3-3.txt
 #Part 4
-z 187 240 53
+z 195 265 70
 file data/levels/stage3-4.txt
 next
 #Port
@@ -63,10 +63,10 @@ file data/levels/stage3-1.txt
 z 176 240 64
 file data/levels/chop-shop.txt
 #Part 3
-z 187 240 53
+z 187 267 80
 file	data/levels/stage3-3.txt
 #Part 4
-z 187 240 53
+z 195 265 70
 file data/levels/stage3-4.txt
 next
 scene	data/scenes/ending.txt
