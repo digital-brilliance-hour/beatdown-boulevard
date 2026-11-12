@@ -1,3 +1,4 @@
+
 ## Load music in this area ##
 music		data/music/remix.bor
 bossmusic	data/music/menu.bor
@@ -8,7 +9,7 @@ type 1
 ## Load images in this area ##
 
 # Background layer
-background	data/bgs/street/back.gif
+background data/bgs/stage3/chopshop.png 0 0
 
 # Front layers
 #frontpanel	data/bgs/street/f00.gif
@@ -23,11 +24,8 @@ background	data/bgs/street/back.gif
 # Neon mode panel layers use 'pallete cycling': certain colors slowy change to different colors. To be more specific, colors 128 through 135 in the pallete will be cycled by two steps three times each second.
 # Screen mode panel layers have alpha transparency. That means, they blend with the colors behind them, darker colors are more transparent, and brighter colors will blend less.
 
-panel		data/bgs/street/n01.gif	data/bgs/street/neon01.gif	data/bgs/street/s01.gif
-
-
-# order the reference letters to the panels
-order	aaaaaaaaaaaaaaaaaaa
+panel data/bgs/stage3/chopshoppanel.gif none none
+order a
 
 ## Spawning Area ##
 # Spawn format:
@@ -70,13 +68,86 @@ order	aaaaaaaaaaaaaaaaaaa
 
 
 #--group1-----
-spawn	box
-health  100
-item	Meat
+spawn yamazaki
 coords	200 180
-at	0
+at      50
+
+spawn yamazaki
+coords  200 180
+at      50
+
+spawn robert
+coords  200 180
+at      50
+
+spawn billy
+coords  200 180
+at      50
+
+wait
+at 350
+
+group 1 4
+at 380
+#--group2-----
+
+spawn biker-k'
+coords  390 180
+at      100
+
+spawn biker-k'
+coords  420 180
+at      200
+
+spawn mighty
+coords  440 180
+at      100
 
 
+wait
+at 650
 
+group 1 4
+at 670
+#--group3-----
+spawn mighty
+coords  610 200
+at      150
+
+spawn mighty
+coords  630 200
+at      150
+
+spawn rugal
+coords  670 180
+at      150
+
+spawn lobster
+coords  690 180
+at      150
+
+
+wait at
+900
+group 1 4
+at 910
+
+
+#--group4-----
+spawn rugal
+coords  870 180
+at      1000
+
+spawn rugal
+coords  870 180
+at      1000
+
+spawn yamazaki
+coords  870 180
+at      1000
+
+spawn yamazaki
+coords  870 180
+at      1000
 
 
