@@ -37,11 +37,36 @@ file	data/levels/stage3-3.txt
 #Part 4
 z 187 240 53
 file data/levels/stage3-4.txt
+next
 #Port
 z 165 235 70
 file	data/levels/port-level.txt
 next
 z 309 362 53
 file 	data/levels/warehouse2-level.txt
+next
+scene	data/scenes/ending.txt
+
+set     Stage3_Demo
+versusdamage 0
+lives 3
+credits 5
+continuescore 2
+cansave 2
+noshare 1
+scene	data/scenes/howto.txt
+#stage 3
+#Part 1
+z 206 266 60
+file data/levels/stage3-1.txt
+#Part 2
+z 176 240 64
+file data/levels/chop-shop.txt
+#Part 3
+z 187 240 53
+file	data/levels/stage3-3.txt
+#Part 4
+z 187 240 53
+file data/levels/stage3-4.txt
 next
 scene	data/scenes/ending.txt
