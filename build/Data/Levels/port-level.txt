@@ -145,6 +145,7 @@ coords 360 174
 at 2026
 
 spawn Mrbig
+health 400
 boss 1
 coords 244 194
 at 2390

@@ -1,6 +1,6 @@
 ## Load music in this area ##
-music		data/music/remix.bor
-bossmusic	data/music/menu.bor
+music	 	data/music/stage3-new.ogg
+bossmusic	data/music/boss.ogg
 
 ## Load images in this area ##
 
@@ -9,6 +9,10 @@ background data/bgs/stage3/parkinggarage2nd.png 0 0
 
 panel data/bgs/stage3/parkinggaragepanel.gif none none
 order a
+
+
+wall 0 366 0 0 81 81 580 700
+spawn1 104 19
 
 ## Spawning Area ##
 # Spawn format:

@@ -1,6 +1,6 @@
 ## Load music in this area ##
-music		data/music/remix.bor
-bossmusic	data/music/menu.bor
+music	 	data/music/stage3-new.ogg
+bossmusic	data/music/boss.ogg
 
 ## Load images in this area ##
 
@@ -72,6 +72,8 @@ coords 220 200
 at 190
 
 spawn Mrbig
+map 1
+health 150
 croods 360 200
 at 200
 
@@ -83,6 +85,7 @@ group 2 2
 at 620
 
 spawn mrbig
+health 150
 croods  660 200
 at 700
 
@@ -92,6 +95,7 @@ croords 780 200
 at 830
 
 spawn joe
+health 300
 boss 1
 coords 800 240
 at 890

@@ -110,7 +110,7 @@ group 1 3
 at 656
 
 spawn KagetsuraE
-health 300
+health 500
 boss 1
 coords 150 328
 at 656

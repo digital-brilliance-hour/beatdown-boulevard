@@ -1,7 +1,7 @@
 
 ## Load music in this area ##
-music		data/music/remix.bor
-bossmusic	data/music/menu.bor
+music	 	data/music/stage3-new.ogg
+bossmusic	data/music/boss.ogg
 
 ## Bonus Stage Type ##
 type 1
